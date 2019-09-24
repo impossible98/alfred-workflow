@@ -1,0 +1,7 @@
+language: node_js
+branches:
+    only:
+        - master
+        - develop
+script:
+    - node -e "console.log('Hello, World!');"
