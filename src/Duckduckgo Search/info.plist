@@ -29,30 +29,9 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Duckduckgo Search</string>
+	<string>DuckDuckGo Search</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>duck</string>
-				<key>subtext</key>
-				<string>Privacy, simplified.</string>
-				<key>text</key>
-				<string>Search Duckduckgo for '{query}'</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>446DBEAC-3019-4DC3-997E-AF00432D05CE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -69,6 +48,27 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>01682AD2-3955-451F-8304-8A35DB2E2187</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>duckduckgo</string>
+				<key>subtext</key>
+				<string>Privacy, simplified.</string>
+				<key>text</key>
+				<string>Search Duckduckgo for '{query}'</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>446DBEAC-3019-4DC3-997E-AF00432D05CE</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
